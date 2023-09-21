@@ -1,5 +1,7 @@
 # DigiTour
 
+![](https://github.com/DigiSightseeing/backend/actions/workflows/test.yml/badge.svg)  ![](https://github.com/DigiSightseeing/backend/actions/workflows/lint.yml/badge.svg)
+
 <!-- toc -->
 
 - [Installation](#installation)
