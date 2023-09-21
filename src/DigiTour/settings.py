@@ -14,7 +14,6 @@ import os
 import sys
 from pathlib import Path
 
-import environ
 from dotenv import load_dotenv
 
 # Build paths inside the project like this: BASE_DIR / 'subdir'.
