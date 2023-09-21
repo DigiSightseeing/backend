@@ -1,0 +1,52 @@
+[project]
+name = "DigiTour"
+version = "0.0.1"
+description = ""
+authors = [{ name = "Kristofers Solo", email = "dev@kristofers.xyz" }]
+readme = "README.md"
+requires-python = ">=3.10"
+license = { text = "GPLv3" }
+classifiers = [
+  "Programming Language :: Python :: 3",
+  "Programming Language :: Python :: 3:10",
+  "Programming Language :: Python :: 3:11",
+  "License :: OSI Approved :: GNU General Public License v3 (GPLv3)",
+]
+
+[tool.mypy]
+check_untyped_defs = true
+disallow_any_generics = true
+ignore_missing_imports = true
+mypy_path = "DigiTour"
+no_implicit_optional = true
+no_implicit_reexport = true
+show_error_codes = true
+strict_equality = true
+warn_redundant_casts = true
+warn_return_any = true
+warn_unreachable = true
+warn_unused_configs = true
+
+[tool.ruff]
+line-length = 160
+exclude = ["**/**/migrations"]
+
+
+[tool.black]
+line-length = 160
+
+[tool.ruff.flake8-quotes]
+docstring-quotes = "double"
+
+[tool.djlint]
+close_void_tags = true
+format_attribute_template_tags = true
+format_css = true
+format_js = true
+max_line_length = 120
+
+[tool.djlint.css]
+indent_size = 4
+
+[tool.djlint.js]
+indent_size = 4
